@@ -1,9 +1,9 @@
-const str = `Cat
+const str2 = `Cat
 sat on 
 the hat.`;
-const regex = /\./g
+const regex2 = /\./g
 
-const output = (str, regex, target) => {
+const output2 = (str, regex, target) => {
     target.innerHTML = str.replace(regex, str => `<span>${str}</span>`);
 }
 

@@ -10,7 +10,7 @@ const output = (str, regex, target) => {
 var regex = new RegExp("is", "gi");
 
 output(str, regex, document.querySelector('pre'));
-var regex2 = /it/g;
+var regex12 = /it/g;
 console.log(regex2.test(str));
 console.log(regex.exec(str));
 console.log(regex.exec(str));
